@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/<имя-образа>:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/docker-cicd-lab:latest
